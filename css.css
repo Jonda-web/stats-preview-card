@@ -14,12 +14,22 @@ font-family: 'Lexend Deca', sans-serif; */
     font-size: 15px;
 }
 
+
 body {
     background-color: hsl(233, 47%, 7%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
+
 
 .container1 {
     background-color: hsl(244, 38%, 16%);
+    overflow: hidden;
+    height: 440px;
+    width: 540px;
 }
 
 h1, .box-number {
@@ -30,8 +40,13 @@ p {
     color:hsla(0, 0%, 100%, 0.75);
 }
 
-
-
 .box .box-text{
     color:hsla(0, 0%, 100%, 0.6);
+    font-family: Inter, sans-serif;
+}
+
+.img-container {
+    overflow: hidden;
+    height: 440px;
+    width: 540px;
 }
