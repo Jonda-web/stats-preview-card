@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 /* css rules:
 font-family: 'Inter', sans-serif;
 font-family: 'Lexend Deca', sans-serif; */
@@ -11,8 +14,20 @@ font-family: 'Lexend Deca', sans-serif; */
     font-size: 15px;
 }
 
-h1, .box-text {
-   color: hsla(0, 0%, 100%);
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container1 {
+    background-color: hsl(244, 38%, 16%);
+}
+
+h1, .box-number {
+    color: hsla(0, 0%, 100%);
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75);
 }
 
 
