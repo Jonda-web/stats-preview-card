@@ -6,3 +6,18 @@
 font-family: 'Inter', sans-serif;
 font-family: 'Lexend Deca', sans-serif; */
 
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h1, .box-text {
+   color: hsl(0, 0%, 100%);
+}
+
+
+
+.box .box-text{
+    color:hsl(0, 0%, 100%, 0.6);
+}
